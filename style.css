@@ -1,0 +1,374 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+header .header_links {
+    display: flex;
+    gap: 25px;
+    color: #171832;
+    font-size: 16px;
+    padding-top: 15px;
+
+}
+
+header .header_links a:hover {
+    color: #2D74FF;
+    text-decoration: underline;
+}
+
+header button {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+header button:hover {
+    background-color: #2D74FF;
+    color: #fff;
+}
+
+/*header tugadi*/
+/*banner*/
+
+.banner {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    justify-content: space-evenly;
+
+}
+
+.banner .text {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    margin-left: 80px
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Gelasio:ital,wght@0,400..700;1,400..700&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+.banner .text h3 {
+    color: #2D74FF;
+    font-weight: lighter;
+
+}
+
+.banner .text h1 {
+    font-family: "Gelasio", serif;
+    font-size: 57px;
+}
+
+.banner .text h1 span {
+    color: #2D74FF;
+}
+
+.banner .text .btns button {
+    width: 170px;
+    height: 60px;
+    font-size: 18px;
+    border: none;
+    background-color: transparent;
+    border-radius: 5px;
+}
+
+.banner .text .btns button:hover {
+    background-color: #2D74FF;
+    color: #fff;
+}
+
+.banner .image {
+    width: 1000px;
+    height: 600px;
+
+}
+
+.banner .image .ims {
+    position: absolute;
+    bottom: 320px;
+    left: 600px;
+}
+
+.banner .image .tele {
+    position: absolute;
+    bottom: 10px;
+    left: 560px;
+}
+
+.banner .image .comment {
+    position: absolute;
+    bottom: 200px;
+    left: 1200px;
+}
+
+/*banner end*/
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    margin-top: 200px;
+    justify-content: space-evenly;
+}
+
+.container .texts1 {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+    width: 425px;
+    height: 335px;
+    font-size: 18px;
+}
+
+.container .texts1 h3 {
+    color: #2D74FF;
+}
+
+.container .texts1 h1 {
+    font-size: 38px;
+}
+
+.container .texts1 p {
+    color: gray;
+}
+
+.container .texts1 button {
+    width: 170px;
+    height: 60px;
+    border: none;
+    background-color: transparent;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.container .texts1 button:hover {
+    background-color: #2D74FF;
+    color: #fff;
+}
+
+.container .imgs img {
+    width: 555px;
+    height: 336px;
+    border-radius: 10px;
+}
+
+.container .imgs .play img {
+    width: 90px;
+    height: 90px;
+    position: relative;
+    bottom: 220px;
+    left: 220px;
+}
+
+/*container end*/
+.box {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    text-align: center;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.box h1 {
+    font-size: 32px;
+}
+
+.box .cards {
+    display: grid;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+
+    grid-template-columns: 360px 360px 360px;
+    grid-template-rows: 300px 300px 300px;
+}
+
+.box .cards .card {
+    width: 360px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.box .cards .card p {
+    width: 315px;
+    height: 80px;
+}
+
+/*box end*/
+.what {
+    display: flex;
+    flex-direction: column;
+}
+
+.what .our {
+    display: flex;
+    justify-content: space-around;
+    font-size: 26px;
+    gap: 20px;
+    text-align: center;
+    align-items: center;
+}
+
+.what .our .btns2 {
+    display: flex;
+    gap: 20px;
+
+}
+
+.what .our .btns2 i {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #fff;
+    color: #2D74FF;
+    padding-top: 9px;
+    box-shadow: 0px 2px 30px 0px #00000008;
+}
+.what .our .btns2 i:hover{
+    color: #fff;
+    background-color: #2D74FF;
+}
+.what .card1{
+    display: flex;
+    margin-top: 60px;
+    justify-content: space-around;
+   
+
+
+}
+.what .card1 .card5{
+    width: 500px;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    box-shadow: 0px 6px 30px 0px #00000008;
+    padding: 10px 3%;
+    border-radius: 10px;
+    
+
+}
+.what .card1 .card5 .icons{
+    color: #2D74FF;
+    font-size: 26px;
+}
+.what .card1 .card5 .img{
+    display: flex;
+    gap: 30px;
+}
+.what .card1 .card5 .img .text{
+    display: flex;
+    flex-direction: column;
+    padding-top: 25px;
+    gap: 20px;
+    font-size: 20px;
+}
+/* what end*/
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 140px;
+    gap: 30px;
+}
+.main h1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+.main p{
+    width: 600px;
+    height: 55px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    line-height: 20px;
+    font-size: 18px;
+}
+.main .inpt{
+    display: flex;
+    border: 1px solid #2D74FF;
+    border-radius: 5px;
+
+}
+.main .inpt input{
+    display: flex;
+    width: 430px;
+    height: 55px;
+    border: none;
+    padding: 0px 18px;
+}
+.main .inpt button{
+    width: 100px;
+    height: 55px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+}
+.main .inpt button:hover{
+    background-color: #2D74FF;
+    color: #fff;
+}
+/*main end*/
+footer{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    gap: 40px;
+    justify-content: space-around;
+    margin-top: 40px;
+    padding-top: 100px;
+    background-color: rgb(243, 240, 240);
+}
+footer .text3 p{
+    width: 360px;
+    height: 80px;
+    margin-top: 30px;
+}
+footer .home{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .pages{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer .contact{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+footer h4{
+    font-weight: 100;
+    color: #171832;
+    
+}
