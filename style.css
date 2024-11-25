@@ -13,6 +13,24 @@ header {
     align-items: center;
     justify-content: space-evenly;
 }
+header .header_icons{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #171832;
+    gap: 20px;
+    justify-content: center;
+    display: none;
+   
+}
+header .header_icons i{
+    color: #171832;
+}
+header .header_icons i:hover{
+    color: #2D74FF;
+    text-decoration: underline;
+}
+
 
 header .header_links {
     display: flex;
@@ -41,6 +59,21 @@ header button:hover {
     background-color: #2D74FF;
     color: #fff;
 }
+@media (max-width: 700px) {
+    header .header_icons {
+        display: block;
+        display: flex;
+        gap: 20px;
+        color: #171832;
+
+    }
+}
+@media (max-width: 700px) {
+    header .header_links{
+        display: none;
+    }
+}
+
 
 /*header tugadi*/
 /*banner*/
@@ -100,8 +133,8 @@ header button:hover {
 
 .banner .image .ims {
     position: absolute;
-    bottom: 320px;
-    left: 600px;
+    bottom: 440px;
+    left: 690px;
 }
 
 .banner .image .tele {
@@ -112,8 +145,38 @@ header button:hover {
 
 .banner .image .comment {
     position: absolute;
-    bottom: 200px;
+    bottom: 300px;
     left: 1200px;
+}
+@media (max-width: 700px) {
+    .banner{
+        display: flex;
+        flex-direction: column;
+        margin-top: 20px;
+    }
+    .banner .text h1{
+        font-size: 38px;
+    }
+    .banner .image .ims {
+        position: absolute;
+        top: 320px;
+        left: 100px;
+    }
+    .banner .image .tele{
+        position: absolute;
+        top: 700px;
+        left: 10px;
+    }
+    .banner .image .comment{
+        position: absolute;
+        left: 500px;
+        top: 430px;
+    }
+    .banner .image{
+        display: flex;
+        align-items: start;
+        margin-left: -80px;
+    }
 }
 
 /*banner end*/
@@ -173,6 +236,15 @@ header button:hover {
     bottom: 220px;
     left: 220px;
 }
+@media (max-width: 700px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+        margin-top: 500px;
+        justify-content: space-evenly;
+        padding-left: 90px;
+    }
+}
 
 /*container end*/
 .box {
@@ -216,6 +288,17 @@ header button:hover {
 .box .cards .card p {
     width: 315px;
     height: 80px;
+}
+@media (max-width: 700px) {
+    .box{
+        margin-top: 100px;
+    }
+    .box .cards{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 /*box end*/
@@ -287,6 +370,20 @@ header button:hover {
     gap: 20px;
     font-size: 20px;
 }
+@media (max-width: 700px) {
+    .what{
+        margin-top: 180px;
+    }
+    .what h1{
+        font-size: 38px;
+    }
+    .what .card1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+}
 /* what end*/
 .main{
     width: 100%;
@@ -341,11 +438,18 @@ footer{
     width: 100%;
     height: 100%;
     display: flex;
-    gap: 40px;
-    justify-content: space-around;
+    justify-content: space-evenly;
     margin-top: 40px;
-    padding-top: 100px;
+    padding-top: 50px;
     background-color: rgb(243, 240, 240);
+}
+footer .footer1{
+    display: flex;
+    gap: 40px;
+}
+footer .footer2{
+    display: flex;
+    gap: 80px;
 }
 footer .text3 p{
     width: 360px;
@@ -370,5 +474,15 @@ footer .contact{
 footer h4{
     font-weight: 100;
     color: #171832;
+    
+}
+@media (max-width: 700px) {
+    footer{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 40px;
+    }
     
 }
